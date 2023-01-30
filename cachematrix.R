@@ -1,28 +1,38 @@
-## Put comments here that give an overall description of what your
-## functions do
+## This is my R Programming Assignment 2
 
+## We are going to set and get the matrix first
 
 makeCacheMatrix <- function(x = matrix()) {
-        ## Initialize the inverse property
+        
+        ## We initialize the inverse property
+        
         i <- NULL
         
-        ## To set the matrix
+        ## Now we set the matrix
+        
         set <- function(matrix) {
                 m <<- matrix
                 i <<- NULL
         }
-        ## To get the matrix
+        
+        ## Now we get the matrix
+        
         get <- function() {
+                
                 ## Return the matrix
+                
                 m
+                
         }
         
         ## method to set the inverse of the matrix
+        
         setInverse <- function(inverse) {
                 i <<- inverse
         }
         
         ## Method to get the inverse of the matrix
+        
         getInverse <- function() {
                 ## Return the inverse property
                 i
